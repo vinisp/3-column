@@ -10,22 +10,24 @@
 
 h1{
   font-family: "Big Shoulders Display",sans-serif;
-  font-size: 2.5em;
+  font-size: 3.5em;
   color:hsla(0,0%,100%);
+  text-transform: uppercase;
 }
 
-p,
-button{
+button, .text-box{
   font-family: "Lexend Deca", sans-serif;
 }
 
 h1,
 svg,
-p{
+div, span{
 background: transparent;
 }
 
-p{
+
+
+span{
   color: hsl(0,0%,100%,0.75)
 }
 
@@ -46,15 +48,39 @@ p{
 }
 
 .content{
-  padding: 5em;
+  padding: 5em 5em 5em 3.5em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+  width: 33.33333%;
+
+}
+.text-box{
+display: flex;
+align-items: flex-start;
+height: 40%; 
+}
+
+.text-box p{
+  background: transparent;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.lineBreak{
+  font-size:1.2em;
+
+}
+
+.lineBreak:after{
+  content:"\A";
+  white-space: pre;
 }
 
 .btn-txt{
   background: transparent;
+  font-size: 1.2em;
 }
 
 .content:nth-child(1){
@@ -88,6 +114,7 @@ button{
   background: hsla(0,0%,100%,0.95);
   border-radius: 50px;
   border: none;
-  height: 50px;
+  width: 170px;
+  height: 60px;
   cursor: pointer;
 }
