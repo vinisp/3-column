@@ -6,11 +6,7 @@
   box-sizing: border-box;
   font-size: 15px;
   background: hsla(0,0%,100%,0.75);
-  height: 1440px;
-}
-
-body{
-  height:100%;
+  max-width: 1440px;
 }
 
 h1{
@@ -37,7 +33,7 @@ span{
 .wrapper{
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   padding: 5em;
   background: transparent;
 }
@@ -45,7 +41,7 @@ span{
 .mainBox{
   border-radius: 10px;
   display:flex;
-  width: 70%;
+  width: 90%;
   height: 600px;
 
 }
