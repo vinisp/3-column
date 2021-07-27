@@ -134,20 +134,21 @@ span{
   color: white;
 }
 
-  @media screen and (max-width: 1600px){
+  @media screen and (max-width: 900px){
     *{
       height: 1600px;
     }
 
     .wrapper{
-      padding: 5em;
+      padding: 2em;
       justify-content: center;
       align-items: flex-start;
     }
 
     .mainBox{
-      width:100%;
+      flex-direction: column;
       align-items: center;
+      width:100%;
     }
     
     h1{
@@ -156,7 +157,7 @@ span{
     }
     .content{
       padding: 3em 2em 3em 3.5em;
-      width:70%;
+      width:100%;
       height:80%; 
     }
 
@@ -174,20 +175,4 @@ span{
     .lineBreak:after{
     content:'';
     }
-  }
-
-  @media screen and (max-width: 900px){
-  .wrapper{
-    padding:2em;
-  }
-  
-  .content{
-    width:100%;
-
-  }
-
-  .mainBox{
-    width: 100%;
-  }
-
-  }
+}
