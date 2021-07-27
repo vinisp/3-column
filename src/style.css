@@ -6,7 +6,7 @@
   box-sizing: border-box;
   font-size: 15px;
   background: hsla(0,0%,100%,0.75);
-  height: 900px;
+  height: 1440px;
 }
 
 body{
@@ -72,7 +72,7 @@ span{
 }
 
 .lineBreak{
-  font-size:1.2em;
+  font-size:1em;
 }
 
 .lineBreak:after{
